@@ -7,6 +7,7 @@ const foods = [
     { name: "OXFILE", description: "Tomatsås, mozzarella, oxfilé, färska champinjoner, bearnaisesås.", price: 125, image: "images/p6.jpeg" },
     { name: "POSEIDON", description: "Crème fraiche, mozzarella, handskalade räkor, kräftstjärtar.", price: 145, image: "images/p7.jpeg" },
     { name: "PEPPERONI PIZZA", description: "Tomatsås, mozzarella, champinjoner, pepperonikorv, valfri sås ingår.", price: 110, image: "images/p8.jpeg" },
+    { name: "VEGETARIANA", description: "Tomatsås, ost, färska champinjoner, cocktailtomater, lök, kronärtskocka, oliver", price: 100, image: "images/p9.jpeg" },
 ];
 
 const cart = [];
@@ -63,7 +64,7 @@ function updateCart() {
     cartDiv.classList.add("border", "rounded", "p-3", "mb-4");
 
     if (cart.length === 0) {
-        cartDiv.innerHTML += "<p>Din kundkorg är tom.</p>";
+        cartDiv.innerHTML += "<p>Din kundkorg är tom... handla snabbt.</p>";
         return;
     }
 
