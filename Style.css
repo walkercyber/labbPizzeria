@@ -208,15 +208,15 @@ h2, .title {
     color: #333;
 }
 
+.contact-title {
+    font-family: 'Playfair Display', serif;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
 footer {
     background-color: #37364f;
     color: white;
     padding: 10px 0;
     text-align: center;
-}
-
-.contact-title {
-    font-family: 'Playfair Display', serif;
-    font-size: x-large;
-    margin-bottom: 20px;
 }

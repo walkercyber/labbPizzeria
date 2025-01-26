@@ -60,11 +60,11 @@ function clearCart() {
 
 function updateCart() {
     const cartDiv = document.getElementById("cart");
-    cartDiv.innerHTML = "<h3>Din kundkorg</h3>";
+    cartDiv.innerHTML = "<h5>Kundkorg</h5>";
     cartDiv.classList.add("border", "rounded", "p-3", "mb-4");
 
     if (cart.length === 0) {
-        cartDiv.innerHTML += "<p>Din kundkorg är tom... handla snabbt.</p>";
+        cartDiv.innerHTML += "<p><i>Kundkorgen är tom... handla snabbt.</i></p>";
         return;
     }
 
