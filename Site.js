@@ -64,7 +64,7 @@ function updateCart() {
     cartDiv.classList.add("border", "rounded", "p-3", "mb-4");
 
     if (cart.length === 0) {
-        cartDiv.innerHTML += "<p><i>Kundkorgen är tom... handla snabbt.</i></p>";
+        cartDiv.innerHTML += "<p><i>Kundkorgen är tom...</i></p>";
         return;
     }
 
@@ -89,7 +89,7 @@ function updateCart() {
 
     const clearCartButton = document.createElement("button");
     clearCartButton.textContent = "Töm kundkorg";
-    clearCartButton.classList.add("btn-black", "btn-black", "btn-sm", "mt-3");
+    clearCartButton.classList.add("btn-black", "btn-sm", "mt-3");
 
     clearCartButton.onclick = clearCart;
     cartDiv.appendChild(clearCartButton);
